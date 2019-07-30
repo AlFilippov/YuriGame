@@ -6,8 +6,7 @@ public class LuckyItem {
     public int icon;
     public int color;
 
-    public LuckyItem(String topText, int icon, int color) {
-        this.topText = topText;
+    public LuckyItem( int icon, int color) {
         this.icon = icon;
         this.color = color;
     }

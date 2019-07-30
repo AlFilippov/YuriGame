@@ -241,8 +241,8 @@ public class PielView extends View {
 
         float angle = (float) ((tmpAngle + 360f / mLuckyItemList.size() / 2) * Math.PI / 180);
 
-        int x = (int) (mCenter + mRadius / 2 / 2 * Math.cos(angle));
-        int y = (int) (mCenter + mRadius / 2 / 2 * Math.sin(angle));
+        int x = (int) (mCenter + mRadius / 1.65 / 2 * Math.cos(angle));
+        int y = (int) (mCenter + mRadius / 1.65/ 2 * Math.sin(angle));
 
         Rect rect = new Rect(x - imgWidth / 2, y - imgWidth / 2,
                 x + imgWidth / 2, y + imgWidth / 2);
