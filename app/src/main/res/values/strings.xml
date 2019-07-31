@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Yuri</string>
+    <string name="app_name">Enterprice</string>
+    <string name="play">PLAY</string>
+    <string name="score">Вы выйграли : </string>
 </resources>
